@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Dongle', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    background: linear-gradient(120deg,#6C706C,#3A3D3B);
+    height: 100vh;
+}
+#top_Menu{
+    position: fixed;
+    border-top: 3px solid #537A5A;
+    flex: 1;
+    background-color: #2C302E;
+    top: 0;
+    width: 100%;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#menu_Button{
+    width: 60px;
+    height: 60px;
+}
+#menu_Button:hover{
+    cursor: pointer;
+}
+#side_Menu{
+    display: none;
+    z-index: 1;
+    flex: .18;
+    flex-direction: column;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: #77AE7C;
+}
+.menu_Container{
+    display: flex;
+    flex-direction: row;
+}
+.menu_Item{
+    flex: 1;
+    text-align: center;
+
+    border-radius: 2px;
+    background-color: #77AE7C;
+
+}
+.menu_Item:hover{
+    background-color: #9AE19D;
+    cursor: pointer;
+}
+#Website_Name{
+    flex: 14;
+}
+#loginContainer{
+    flex: 1;
+    text-align: center;
+}
+#signUpContainer{
+    flex: 1;
+    text-align: center;
+}
+#login_Btn{
+    background-color: #80BB85;
+    font-size: 21px;
+    margin: 15px;
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 12px;
+}
+#signup_Btn{
+    background-color: #80BB85;
+    font-size: 21px;
+    margin: 15px;
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 12px;
+}
+#signup_Btn:hover{
+    background-color: #89C88D;
+    cursor: pointer;
+}
+#login_Btn:hover{
+    background-color: #89C88D;
+    cursor: pointer;
+}
+
+#website_Title{
+    text-align: center;
+    padding: 10px;
+    color: #537A5A;
+    font-size: 30px !important;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+@media screen and (max-width: 1310px) {
+    #menu_Button{
+        display: none;
+    }
+    #Website_Name{
+        flex: 9;
+    }
+    
+}
+
+@media screen and (max-width: 870px) {
+    #Website_Name{
+        flex: 3;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #Website_Name{
+        flex: 2;
+    }
+}

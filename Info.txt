@@ -1,0 +1,22 @@
+These are all the back ups and work spaces I used when we developed MockDiscord. 
+I was always paranoid something would break or need additional tweaking in only a 
+moments notice and I was right. 
+
+The Backend Directory is the directory and code that
+	david commited to GitHub and was supposed to act as a blue print. It might not
+	be the same as it originally was, but it should embody everything first given.
+
+The CompletedSoftware folder containes the Final Versions of the WebServers; both 
+	the frontend and backend.
+
+The Prototypes folder has the initial software we worked on and sprinted to create
+	in our first two weeks.
+
+Throughout the Djongo projects(that's what they're technically called) there are
+	additional text files that hold important info vital for easy installation
+	and deployment. 
+
+If you want to deploy and interact with the DjangoPrjects yourself, I recomend
+	creating a virtual environment  Django Project and just overwrite whats 
+	in it with what we have. WARNING!!!!!! THIS ALL MIGHT BE OUTDATED, BE 
+	MINDFUL WHEN WORKING WITH ALL OF THIS.

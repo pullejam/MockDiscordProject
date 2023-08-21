@@ -1,0 +1,11 @@
+Backend Project was an early iteration of the RestApi that I used to modify and debug
+	before rolling it onto our running servers
+
+ProtoType(StaticFrontEnd) is the file full of my inital web site stuff. Static meant
+	it wouldn't take any input or give output. It didn't change at all unless css
+ 	and js changed its styling.
+
+Testing -LocallyStoredStuff is a directory of two Django Project copied from a 
+	raspberry pi. These served the same purposes as the Backend Project Dir.
+
+	I deleted a virtual environment directory for the iteration with accounts

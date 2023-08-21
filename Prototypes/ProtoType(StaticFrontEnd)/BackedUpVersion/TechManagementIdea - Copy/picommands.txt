@@ -1,0 +1,38 @@
+Setting uo environment
+	Install Python3
+	RESTART SO PATH CAN BE SET
+	pip3 install pipenv
+	make Directory
+	pipenv install django
+	pipenv shell must run as root
+	django-admin startproject <name> . 
+	write allowed hosted in settings, add devices own ip as host to allow access
+	python3 manage.py runserver <allowed host ip>:<port>
+
+
+
+install apache2
+install ufw
+pip3 install django django-admin-toolsdjango-agmin startproject <name>
+
+
+start app server
+	go into virtual env |source
+	python3 manage.py runserver
+start webserver
+	sudo service apache2 start
+
+pip3 install pipenv
+
+Setting uo environment
+Install Python3
+pip3 install pipenv
+pipenv install django
+pipenv shell
+django-admin startproject <name> . 
+python3 manage.py runserver <port>
+
+----------------------------------------
+wireless access
+	sudo rfkill unblock 0
+	sudo ifconfig wlan0 up

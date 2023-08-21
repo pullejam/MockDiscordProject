@@ -1,0 +1,197 @@
+[Tue Nov 23 08:19:08.536605 2021] [wsgi:error] [pid 24128:tid 140228585506560] [remote 172.56.41.46:54159] Not Found: /static/admin/css/fonts.css
+Exception ignored in: <function Local.__del__ at 0x7f89817e8160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Nov 23 08:27:45.265852 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171] Internal Server Error: /
+[Tue Nov 23 08:27:45.265894 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171] Traceback (most recent call last):
+[Tue Nov 23 08:27:45.265897 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Tue Nov 23 08:27:45.265900 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     response = get_response(request)
+[Tue Nov 23 08:27:45.265903 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 167, in _get_response
+[Tue Nov 23 08:27:45.265905 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     callback, callback_args, callback_kwargs = self.resolve_request(request)
+[Tue Nov 23 08:27:45.265908 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+[Tue Nov 23 08:27:45.265911 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     resolver_match = resolver.resolve(request.path_info)
+[Tue Nov 23 08:27:45.265913 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 556, in resolve
+[Tue Nov 23 08:27:45.265916 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     for pattern in self.url_patterns:
+[Tue Nov 23 08:27:45.265918 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+[Tue Nov 23 08:27:45.265920 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     res = instance.__dict__[self.name] = self.func(instance)
+[Tue Nov 23 08:27:45.265923 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+[Tue Nov 23 08:27:45.265926 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Tue Nov 23 08:27:45.265928 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+[Tue Nov 23 08:27:45.265931 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     res = instance.__dict__[self.name] = self.func(instance)
+[Tue Nov 23 08:27:45.265933 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+[Tue Nov 23 08:27:45.265936 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     return import_module(self.urlconf_name)
+[Tue Nov 23 08:27:45.265938 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Tue Nov 23 08:27:45.265941 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 23 08:27:45.265943 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Tue Nov 23 08:27:45.266743 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Tue Nov 23 08:27:45.266753 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Tue Nov 23 08:27:45.266755 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Tue Nov 23 08:27:45.266758 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Tue Nov 23 08:27:45.266760 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Tue Nov 23 08:27:45.266762 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]   File "/delwarestudios/mockdiscord/urls.py", line 24, in <module>
+[Tue Nov 23 08:27:45.266764 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171]     path('home/', views.homePage),
+[Tue Nov 23 08:27:45.266766 2021] [wsgi:error] [pid 28007:tid 140719026575104] [remote 172.56.41.46:42171] AttributeError: module 'mockdiscord.views' has no attribute 'homePage'
+Exception ignored in: <function Local.__del__ at 0x7ffbac8ea160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7ffbac8ea160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Nov 23 08:28:39.889115 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090] Internal Server Error: /
+[Tue Nov 23 08:28:39.889159 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090] Traceback (most recent call last):
+[Tue Nov 23 08:28:39.889163 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Tue Nov 23 08:28:39.889166 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]     response = get_response(request)
+[Tue Nov 23 08:28:39.889168 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Tue Nov 23 08:28:39.889171 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Nov 23 08:28:39.889174 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]   File "/delwarestudios/mockdiscord/views.py", line 4, in homePage
+[Tue Nov 23 08:28:39.889177 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]     return render(request, 'index.html')
+[Tue Nov 23 08:28:39.889180 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+[Tue Nov 23 08:28:39.889182 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]     content = loader.render_to_string(template_name, context, request, using=using)
+[Tue Nov 23 08:28:39.889185 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+[Tue Nov 23 08:28:39.889187 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]     template = get_template(template_name, using=using)
+[Tue Nov 23 08:28:39.889983 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+[Tue Nov 23 08:28:39.889992 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090]     raise TemplateDoesNotExist(template_name, chain=chain)
+[Tue Nov 23 08:28:39.889994 2021] [wsgi:error] [pid 28528:tid 139733105968896] [remote 172.56.41.46:56090] django.template.exceptions.TemplateDoesNotExist: index.html
+Exception ignored in: <function Local.__del__ at 0x7f161e1bf160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f161e1bf160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Nov 23 08:30:08.003203 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593] mod_wsgi (pid=29153): Failed to exec Python script file '/delwarestudios/mockdiscord/wsgi.py'.
+[Tue Nov 23 08:30:08.003264 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593] mod_wsgi (pid=29153): Exception occurred processing WSGI script '/delwarestudios/mockdiscord/wsgi.py'.
+[Tue Nov 23 08:30:08.003865 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593] Traceback (most recent call last):
+[Tue Nov 23 08:30:08.003922 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/delwarestudios/mockdiscord/wsgi.py", line 16, in <module>
+[Tue Nov 23 08:30:08.003926 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     application = get_wsgi_application()
+[Tue Nov 23 08:30:08.003934 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 23 08:30:08.003938 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     django.setup(set_prefix=False)
+[Tue Nov 23 08:30:08.003948 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 23 08:30:08.003952 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 23 08:30:08.003959 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 23 08:30:08.003962 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     self._setup(name)
+[Tue Nov 23 08:30:08.003967 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 23 08:30:08.003970 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     self._wrapped = Settings(settings_module)
+[Tue Nov 23 08:30:08.003977 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 23 08:30:08.003982 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 23 08:30:08.003992 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Tue Nov 23 08:30:08.003996 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 23 08:30:08.004643 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Tue Nov 23 08:30:08.004654 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Tue Nov 23 08:30:08.004660 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Tue Nov 23 08:30:08.004666 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Tue Nov 23 08:30:08.004672 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Tue Nov 23 08:30:08.004677 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Tue Nov 23 08:30:08.004702 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]   File "/delwarestudios/mockdiscord/settings.py", line 72, in <module>
+[Tue Nov 23 08:30:08.004705 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593]     os.path.join(DIRNAME, 'templates/'),
+[Tue Nov 23 08:30:08.004724 2021] [wsgi:error] [pid 29153:tid 140039288911616] [remote 172.56.41.46:40593] NameError: name 'DIRNAME' is not defined
+[Tue Nov 23 08:30:20.301931 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915] mod_wsgi (pid=29153): Failed to exec Python script file '/delwarestudios/mockdiscord/wsgi.py'.
+[Tue Nov 23 08:30:20.301980 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915] mod_wsgi (pid=29153): Exception occurred processing WSGI script '/delwarestudios/mockdiscord/wsgi.py'.
+[Tue Nov 23 08:30:20.302114 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915] Traceback (most recent call last):
+[Tue Nov 23 08:30:20.302161 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/delwarestudios/mockdiscord/wsgi.py", line 16, in <module>
+[Tue Nov 23 08:30:20.302165 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     application = get_wsgi_application()
+[Tue Nov 23 08:30:20.302171 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 23 08:30:20.302174 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     django.setup(set_prefix=False)
+[Tue Nov 23 08:30:20.302180 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 23 08:30:20.302182 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 23 08:30:20.302188 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 23 08:30:20.302191 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     self._setup(name)
+[Tue Nov 23 08:30:20.302197 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 23 08:30:20.302199 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     self._wrapped = Settings(settings_module)
+[Tue Nov 23 08:30:20.302205 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 23 08:30:20.302219 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 23 08:30:20.302226 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Tue Nov 23 08:30:20.302228 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 23 08:30:20.302234 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Tue Nov 23 08:30:20.302240 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Tue Nov 23 08:30:20.302245 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Tue Nov 23 08:30:20.302251 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Tue Nov 23 08:30:20.302257 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Tue Nov 23 08:30:20.302263 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Tue Nov 23 08:30:20.302269 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]   File "/delwarestudios/mockdiscord/settings.py", line 72, in <module>
+[Tue Nov 23 08:30:20.302271 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915]     os.path.join(DIRNAME, 'templates/'),
+[Tue Nov 23 08:30:20.302285 2021] [wsgi:error] [pid 29153:tid 140039305697024] [remote 172.56.41.46:35915] NameError: name 'DIRNAME' is not defined
+[Tue Nov 23 08:31:09.955275 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545] Internal Server Error: /
+[Tue Nov 23 08:31:09.955315 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545] Traceback (most recent call last):
+[Tue Nov 23 08:31:09.955319 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Tue Nov 23 08:31:09.955322 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]     response = get_response(request)
+[Tue Nov 23 08:31:09.955324 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Tue Nov 23 08:31:09.955327 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Nov 23 08:31:09.955330 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]   File "/delwarestudios/mockdiscord/views.py", line 4, in homePage
+[Tue Nov 23 08:31:09.955333 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]     return render(request, 'index.html')
+[Tue Nov 23 08:31:09.955335 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+[Tue Nov 23 08:31:09.955338 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]     content = loader.render_to_string(template_name, context, request, using=using)
+[Tue Nov 23 08:31:09.955340 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+[Tue Nov 23 08:31:09.955343 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]     template = get_template(template_name, using=using)
+[Tue Nov 23 08:31:09.956107 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]   File "/delwarestudios/venv/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+[Tue Nov 23 08:31:09.956116 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545]     raise TemplateDoesNotExist(template_name, chain=chain)
+[Tue Nov 23 08:31:09.956118 2021] [wsgi:error] [pid 29636:tid 139816052446976] [remote 172.56.41.46:28545] django.template.exceptions.TemplateDoesNotExist: index.html
+Exception ignored in: <function Local.__del__ at 0x7f296e1ac160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f296e1ac160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Nov 23 08:32:38.417487 2021] [wsgi:error] [pid 30264:tid 140390716958464] [remote 172.56.41.46:32650] Not Found: /static/css/style.css
+[Tue Nov 23 08:32:38.485649 2021] [wsgi:error] [pid 30264:tid 140390834456320] [remote 172.56.41.46:54929] Not Found: /static/js/script.js
+[Tue Nov 23 08:32:38.486147 2021] [wsgi:error] [pid 30264:tid 140390716958464] [remote 172.56.41.46:35217] Not Found: /static/img/588a64e7d06f6719692a2d11.png
+Exception ignored in: <function Local.__del__ at 0x7faf41c83160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Nov 23 08:34:35.240611 2021] [authz_core:error] [pid 31071:tid 139746684692224] [client 172.56.41.46:62407] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:34:35.245048 2021] [authz_core:error] [pid 31072:tid 139746693084928] [client 172.56.41.46:56694] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:34:35.290673 2021] [authz_core:error] [pid 31071:tid 139746676299520] [client 172.56.41.46:41261] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:34:36.800359 2021] [authz_core:error] [pid 31071:tid 139746659514112] [client 172.56.41.46:41261] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:34:36.805135 2021] [authz_core:error] [pid 31072:tid 139746676299520] [client 172.56.41.46:56694] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:34:36.809669 2021] [authz_core:error] [pid 31071:tid 139746651121408] [client 172.56.41.46:62407] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:36:16.380462 2021] [authz_core:error] [pid 31072:tid 139746575587072] [client 172.56.41.46:59676] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:36:16.385457 2021] [authz_core:error] [pid 31071:tid 139746634336000] [client 172.56.41.46:31643] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:36:16.430278 2021] [authz_core:error] [pid 31072:tid 139746491660032] [client 172.56.41.46:59676] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/
+[Tue Nov 23 08:36:26.675490 2021] [authz_core:error] [pid 31071:tid 139746575587072] [client 172.56.41.46:51001] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:36:26.680904 2021] [authz_core:error] [pid 31072:tid 139746651121408] [client 172.56.41.46:47133] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:36:26.730594 2021] [authz_core:error] [pid 31071:tid 139746525230848] [client 172.56.41.46:51001] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:36:26.735701 2021] [authz_core:error] [pid 31072:tid 139746600765184] [client 172.56.41.46:33455] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:36:26.735783 2021] [authz_core:error] [pid 31072:tid 139746600765184] [client 172.56.41.46:47133] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+Exception ignored in: <function Local.__del__ at 0x7f1947bc7160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f1947bc7160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Nov 23 08:38:30.495929 2021] [authz_core:error] [pid 32600:tid 140261537634048] [client 172.56.41.46:20603] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:30.546268 2021] [authz_core:error] [pid 32599:tid 140261546026752] [client 172.56.41.46:48597] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:30.555172 2021] [authz_core:error] [pid 32600:tid 140261529241344] [client 172.56.41.46:50898] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:30.555299 2021] [authz_core:error] [pid 32600:tid 140261529241344] [client 172.56.41.46:63314] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:30.555383 2021] [authz_core:error] [pid 32600:tid 140261512455936] [client 172.56.41.46:20603] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:32.560661 2021] [authz_core:error] [pid 32600:tid 140261495670528] [client 172.56.41.46:50898] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:32.570263 2021] [authz_core:error] [pid 32600:tid 140261418071808] [client 172.56.41.46:63314] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:32.576484 2021] [authz_core:error] [pid 32599:tid 140261537634048] [client 172.56.41.46:61201] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:32.576611 2021] [authz_core:error] [pid 32599:tid 140261529241344] [client 172.56.41.46:48597] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:38:32.576695 2021] [authz_core:error] [pid 32600:tid 140261409679104] [client 172.56.41.46:20603] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:55.346853 2021] [authz_core:error] [pid 32599:tid 140261504063232] [client 172.56.41.46:20077] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:55.351029 2021] [authz_core:error] [pid 32600:tid 140261376108288] [client 172.56.41.46:51890] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:55.400641 2021] [authz_core:error] [pid 32600:tid 140261359322880] [client 172.56.41.46:35657] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:55.400794 2021] [authz_core:error] [pid 32599:tid 140261495670528] [client 172.56.41.46:20077] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:55.406059 2021] [authz_core:error] [pid 32600:tid 140261308966656] [client 172.56.41.46:40245] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:57.130917 2021] [authz_core:error] [pid 32600:tid 140261325752064] [client 172.56.41.46:40245] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:57.135214 2021] [authz_core:error] [pid 32599:tid 140261418071808] [client 172.56.41.46:20077] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:57.140030 2021] [authz_core:error] [pid 32600:tid 140261292181248] [client 172.56.41.46:35657] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:57.140120 2021] [authz_core:error] [pid 32600:tid 140261350930176] [client 172.56.41.46:51890] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+[Tue Nov 23 08:39:57.140268 2021] [authz_core:error] [pid 32599:tid 140261409679104] [client 172.56.41.46:50734] AH01630: client denied by server configuration: /delwarestudio, referer: http://143.198.61.120/admin/login/?next=/admin/
+Exception ignored in: <function Local.__del__ at 0x7f9127174160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f9127174160>
+Traceback (most recent call last):
+  File "/delwarestudios/venv/lib/python3.8/site-packages/asgiref/local.py", line 96, in __del__
+NameError: name 'TypeError' is not defined

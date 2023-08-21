@@ -1,0 +1,7 @@
+The zipped images are Projects copied from the final servers and preserved-
+	ready to be copied to another linux machine with little modification needed.
+
+I kept a backup of these, and they came in clutch the 30 minutes before the 
+	presentation, when the sd cards in the raspberry pis got corrupted. 
+	I remember stressing out and rushing to reflash and copy the pis and get them
+	back up and running. 
